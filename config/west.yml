@@ -20,7 +20,7 @@ manifest:
       remote: clegganator259
       revision: main
     - name: prospector-zmk-module
-      remote: badjeff
+      remote: carrefinho
       revision: main
 
   self:

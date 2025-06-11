@@ -20,11 +20,11 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: kurnikas-split-lp-dongle
+    shield: kurnikas-split-lp-dongle prospector_adapter
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_BUILD_OUTPUT_UF2=y
   - board: seeeduino_xiao_ble
-    shield: settings_reset prospector_adapter
+    shield: settings_reset
     cmake-args: -DCONFIG_BUILD_OUTPUT_UF2=y
 
   - board: nice_nano_v2
