@@ -9,8 +9,6 @@ manifest:
       url-base: https://github.com/clegganator259
     - name: carrefinho
       url-base: https://github.com/carrefinho
-    - name: badjeff
-      url-base: https://github.com/badjeff
   projects:
     - name: zmk
       remote: zmkfirmware
