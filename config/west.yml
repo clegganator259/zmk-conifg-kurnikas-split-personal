@@ -7,6 +7,8 @@ manifest:
     #       url-base: https://github.com/zmkfirmware
     - name: clegganator259
       url-base: https://github.com/clegganator259
+    - name: carrefinho
+      url-base: https://github.com/carrefinho
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -15,5 +17,9 @@ manifest:
     - name: zmk-keyboard-kurnikas-split-lp
       remote: clegganator259
       revision: main
+    - name: prospector-zmk-module
+      remote: carrefinho
+      revision: main
+
   self:
     path: config
